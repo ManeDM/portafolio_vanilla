@@ -16,7 +16,7 @@ var menu = document.querySelector('.hamburger');
 // method
 function toggleMenu (event) {
   this.classList.toggle('is-active');
-  document.querySelector( ".box_2" ).classList.toggle("is_active");
+  document.querySelector( ".box_3" ).classList.toggle("is_active");
   event.preventDefault();
 }
 

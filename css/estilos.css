@@ -62,7 +62,7 @@ body {
     display: none;
     }
   
-  .box_2 {
+  .box_3 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -75,7 +75,7 @@ body {
     transition: all 0.3s ease;
   }
   
-  .box_2.is_active {
+  .box_3.is_active {
     transform: translateY(0);
     z-index: 1;
   }
@@ -113,7 +113,7 @@ body {
     width: 70%;
     height: 70%;
     object-fit: contain;
-    margin-top: 36.5rem;
+    
     
 }
 
@@ -129,7 +129,7 @@ body {
 .box_2{
     justify-content: flex-start;
     margin-right: 10rem;
-    margin-top:-20rem;
+    margin-top:-8rem;
     
 }
 
