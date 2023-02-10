@@ -43,15 +43,17 @@ body {
 
 .box_2{
     justify-content: flex-start;
-    margin-right: 14rem;
-    margin-bottom: 30rem;
+    margin-right: 10rem;
+    margin-top:-20rem;
+    
 }
+
+
 
 
 
 .container h2 {
     display: flex;
-    
     z-index: 1;
     color: #ffffff;
     font-size: 50px;
@@ -62,21 +64,34 @@ body {
 }
 
 
-
-
 .container h3 {
     display: flex;
-    flex-wrap: wrap;
     z-index: 1;
-    
     color: #ffffff;
-    font-size: 25px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 25px;
+    line-height: 70px;
+}
+
+.container h5 {
+    display: flex;
+    z-index: 1;
+    color: #ffffff;
+    font-size: 17px;
     text-transform: uppercase;
     letter-spacing: 25px;
     line-height: 70px;
 }
 
 
+#obj_1{
+    margin-top: 7rem;
+}
+
+#obj_2{
+    margin-bottom: -3rem;
+}
 
 
 #particles-js {
@@ -89,14 +104,14 @@ body {
     .container h2 {
         font-size: 50px;
         letter-spacing: 15px;
-        line-height: 20px;
+        line-height: 25px;
         flex-wrap: wrap;
         text-justify: center;
         margin-left: 2rem;
     }
 
     .container h3 {
-        font-size: 18px;
+        font-size: 20px;
         letter-spacing: 25px;
         line-height: 40px;
         flex-wrap: wrap;
@@ -144,7 +159,7 @@ body {
     }
 
     .container h3 {
-        font-size: 18px;
+        font-size: 17px;
         letter-spacing: 15px;
         line-height: 40px;
         flex-wrap: wrap;
