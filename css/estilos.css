@@ -30,9 +30,7 @@ body {
     width: 70%;
     height: 70%;
     object-fit: contain;
-    
-    
-    
+    margin-top: -6rem;
     
 }
 
@@ -45,8 +43,11 @@ body {
 
 .box_2{
     justify-content: flex-start;
-    margin-right: 28rem;
+    margin-right: 14rem;
+    margin-bottom: 30rem;
 }
+
+
 
 .container h2 {
     display: flex;
@@ -84,6 +85,7 @@ body {
 }
 
 @media(max-width: 800px){
+    
     .container h2 {
         font-size: 50px;
         letter-spacing: 15px;
@@ -111,7 +113,7 @@ body {
         height: 70%;
         object-fit: contain;
         flex-wrap: wrap;
-        padding-top: 10.5rem;
+        margin-top: 8rem;
     }
 
     .box_1{
@@ -159,7 +161,7 @@ body {
         height: 70%;
         object-fit: contain;
         flex-wrap: wrap;
-        padding-top: 10.5rem;
+        margin-top: 5.5rem;
     }
 
     .box_1{
