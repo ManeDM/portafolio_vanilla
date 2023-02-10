@@ -9,3 +9,16 @@ function parallax(e) {
         move.style.transform = "translateX(" + x + "px) translateY(" + y + "px)";
     });
 }
+
+// selector
+var menu = document.querySelector('.hamburger');
+
+// method
+function toggleMenu (event) {
+  this.classList.toggle('is-active');
+  document.querySelector( ".box_2" ).classList.toggle("is_active");
+  event.preventDefault();
+}
+
+// event
+menu.addEventListener('click', toggleMenu, false);
