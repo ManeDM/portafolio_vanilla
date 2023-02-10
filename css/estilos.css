@@ -49,9 +49,6 @@ body {
 }
 
 
-
-
-
 .container h2 {
     display: flex;
     z-index: 1;
@@ -82,6 +79,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 25px;
     line-height: 70px;
+    cursor: pointer;
 }
 
 
@@ -107,7 +105,7 @@ body {
         line-height: 25px;
         flex-wrap: wrap;
         text-justify: center;
-        margin-left: 2rem;
+        margin-left: 1rem;
     }
 
     .container h3 {
@@ -118,9 +116,23 @@ body {
         text-justify: center;
         white-space: 10rem;
         margin-top: 2rem;
-        margin-left: 2rem;
+        margin-left: 1rem;
         
     }
+
+    .container h5 {
+        display: flex;
+        z-index: 1;
+        color: #ffffff;
+        font-size: 18px;
+        text-transform: uppercase;
+        letter-spacing: 25px;
+        line-height: 70px;
+        cursor: pointer;
+        margin-left: 1rem;
+    }
+
+    
 
     .container img {
         position: absolute;
@@ -128,7 +140,7 @@ body {
         height: 70%;
         object-fit: contain;
         flex-wrap: wrap;
-        margin-top: 8rem;
+        margin-top: 9.2rem;
     }
 
     .box_1{
@@ -155,7 +167,7 @@ body {
         line-height: 20px;
         flex-wrap: wrap;
         text-justify: center;
-        margin-left: 1rem;
+        margin-left: 2rem;
     }
 
     .container h3 {
@@ -166,9 +178,31 @@ body {
         text-justify: center;
         white-space: 10rem;
         margin-top: 2rem;
-        margin-left: 1rem;
+        margin-left: 2rem;
         
     }
+
+    .container h5 {
+        display: flex;
+        z-index: 1;
+        color: #ffffff;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 10px;
+        line-height: 50px;
+        cursor: pointer;
+        margin-left: 2rem;
+    }
+    
+    
+    #obj_1{
+        margin-top: 7rem;
+    }
+    
+    #obj_2{
+        margin-bottom: -3rem;
+    }
+    
 
     .container img {
         position: absolute;
@@ -176,7 +210,7 @@ body {
         height: 70%;
         object-fit: contain;
         flex-wrap: wrap;
-        margin-top: 5.5rem;
+        margin-top: 10.5rem;
     }
 
     .box_1{
