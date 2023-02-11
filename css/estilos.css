@@ -58,9 +58,7 @@ body {
     bottom: 50%;
   }
 
-  .hamburger.is-active {
-    display: none;
-    }
+  
   
   .box_3 {
     position: absolute;
@@ -81,14 +79,14 @@ body {
   }
   
  
-  .box_1 h3,
-  .box_1 h5 {
+  
+  .box_3 h5 {
     margin: 0;
     padding: 0;
     text-align: left;
   }
   
-  .box_1 h5 a {
+  .box_3 h5 a {
     color: #ffffff;
     text-decoration: none;
   }
