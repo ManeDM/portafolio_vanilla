@@ -1,0 +1,598 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: url(../img/background2.png) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    overflow: hidden;
+    z-index: 1;
+    margin-top: -100vh;
+}
+
+
+
+.box_1{
+    justify-content: flex-start;
+    margin-right: 25rem;
+    margin-top: 5rem;
+    margin-bottom: -2rem;
+}
+
+
+
+.box_2{
+    justify-content: flex-start;
+    margin-right: 10rem;
+    margin-top:-8rem;
+    
+}
+
+
+
+.container h2 {
+    display: flex;
+    z-index: 1;
+    color: #ffffff;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 25px;
+    padding-top: 35px;
+}
+
+
+.container h3 {
+    display: flex;
+    z-index: 1;
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 25px;
+    line-height: 70px;
+}
+
+.container li{
+    font-size: 38px;
+    line-height: 50px;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+    text-decoration: none;
+    list-style-type: none;
+    color: #8AD47E;
+}
+
+
+
+
+#obj_1{
+    margin-top: 7rem;
+}
+
+#obj_2{
+    margin-bottom: -3rem;
+}
+
+
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width: 800px){
+    
+    .container h2 {
+        font-size: 50px;
+        letter-spacing: 10px;
+        line-height: 4.8rem;
+        flex-wrap: wrap;
+        text-justify: center;
+        margin-left: 3.5rem;
+        color: #8AD47E;
+        padding-top: 16rem;
+        
+    }
+
+    .container h3 {
+        font-size: 27px;
+        letter-spacing: 10px;
+        line-height: 40px;
+        flex-wrap: wrap;
+        text-justify: center;
+        white-space: 10rem;
+        margin-top: 2rem;
+        margin-left: 3.5rem;
+        color: #5DD9C2;
+        
+    }
+
+         
+    .box_1{
+        justify-content: flex-start;
+        margin-right: 13rem;
+        margin-top: 5rem;
+        margin-bottom: -2rem;
+    }
+    
+        
+    .box_3 ul{
+        display: flex;
+        flex-direction: row;
+        padding-right: 4.5rem;
+        
+    }
+
+    .box_3 ul li{
+        margin-top: -15rem;
+        line-height: 35px;
+        letter-spacing: 7px;
+        text-transform: capitalize;
+        margin: -20rem 0 0 0;
+        padding-left: 5rem;
+        font-weight: 500;
+        
+
+    }
+
+    
+    .container .box_2 img {
+        position: fixed;
+        width: 40%;
+        height: 40%;
+        margin-left: 12rem;
+        margin-top: -7rem;
+        object-fit: contain;
+        border-radius: 100%;
+        
+        
+    }
+
+    .container a img{
+        width: 60px;
+        height: 60px;
+        margin-top: 20rem;
+        left: -5rem    
+    }
+
+    .social{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 15rem;
+        margin-right: 32rem;
+    }
+
+    .social img{
+        margin-left: 90px;
+    }
+
+    #soc_5{
+        display: none;
+
+    }
+
+    .cv{
+        color: #5DD9C2;
+        font-size: 35px;
+    }}
+
+
+
+@media (max-width: 800px){
+    
+    .container h2 {
+        font-size: 50px;
+        letter-spacing: 15px;
+        line-height: 4.8rem;
+        flex-wrap: wrap;
+        text-justify: center;
+        margin-left: 2rem;
+        color: #8AD47E;
+        
+    }
+
+    .container h3 {
+        font-size: 20px;
+        letter-spacing: 25px;
+        line-height: 40px;
+        flex-wrap: wrap;
+        text-justify: center;
+        white-space: 10rem;
+        margin-top: 2rem;
+        margin-left: 2rem;
+        color: #5DD9C2;
+        
+    }
+
+    .container li{
+        font-size: 28px;
+        line-height: 50px;
+        letter-spacing: 5px;
+        text-transform: capitalize;
+    }
+
+      
+    .box_1{
+        justify-content: flex-start;
+        margin-right: 13rem;
+        margin-top: 5rem;
+        margin-bottom: -2rem;
+    }
+    
+    
+    .box_3{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container img {
+        position: fixed;
+        width: 60%;
+        height: 60%;
+        margin-left: 2rem;
+        margin-top: 11.2rem;
+        object-fit: contain;
+        
+        
+    }
+
+    
+    .social{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+
+    .social img{
+        margin-left: 30px;
+        width: 40px;
+    }
+
+    #soc_1{
+        margin-left: -22rem;
+        margin-top: 22rem;
+    }
+    #soc_2{
+        margin-left: -17rem;
+        margin-top: 22rem;
+    }
+    #soc_3{
+        margin-left: -7.5rem;
+        margin-top: 22.3rem;
+    }
+    #soc_4{
+        margin-left: -12rem;
+        margin-top: 22.3rem;
+
+    }
+
+    #soc_5{
+        width: 15px;
+        
+        background-image:url(/img/icons/cv.svg);
+        background-repeat: no-repeat;
+        padding: 2rem 2rem;
+        margin-top: 33rem;
+        margin-right: 42.5rem;
+
+    }
+
+    .cv{
+        display: none;
+    }
+    
+    .cv{
+        color: #5DD9C2;
+        font-size: 40px;
+    }
+
+    .cv_btn{
+        margin-top: 21rem;
+        margin-right: 25rem;
+        text-decoration: underline;
+    }
+
+
+    
+
+     /*======================================Burguer-Menu========================================*/
+    .hamburger {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        cursor: pointer;
+        width: 30px;
+        height: 25px;
+      }
+      
+    .hamburger .-top,
+    .hamburger .-mid,
+    .hamburger .-bottom {
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        background-color: #ffffff;
+        border-radius: 3px;
+        transition: all 0.3s ease;
+      }
+      
+    .hamburger .-top {
+        top: 0;
+      }
+      
+    .hamburger .-mid {
+        top: 10px;
+      }
+      
+    .hamburger .-bottom {
+        bottom: 0;
+      }
+      
+    .hamburger.is-active .-top {
+        transform: rotate(45deg);
+        top: 50%;
+      }
+      
+    .hamburger.is-active .-mid {
+        opacity: 0;
+      }
+      
+    .hamburger.is-active .-bottom {
+        transform: rotate(-45deg);
+        bottom: 50%;
+      }
+    
+      
+      
+    .box_3 {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        padding-left: 2rem;
+        padding-top: 20rem;
+        transform: translateY(-100%);
+        transition: all 0.3s ease;
+        
+      }
+      
+    .box_3.is_active {
+        transform: translateY(0);
+        z-index: 1;
+        
+      }
+    .hamburger.is-active{
+        display: none;
+      }
+     
+    .box_3 ul {
+        margin-top: 10rem;
+        text-align: left;
+        font-size: 15px;
+      }
+      
+    .box_3 ul li {
+        color: #8AD47E;
+        text-decoration: none;
+        list-style-type: none;
+        
+      }
+
+      
+      
+ 
+  
+/*======================================Burguer-Menu========================================*/
+
+}
+
+@media(max-width: 450px) {
+    .container h2 {
+        font-size: 25px;
+        letter-spacing: 15px;
+        line-height: 50px;
+        flex-wrap: wrap;
+        text-justify: center;
+        margin-left: 2rem;
+    }
+
+    .container h3 {
+        font-size: 17px;
+        letter-spacing: 13px;
+        line-height: 40px;
+        flex-wrap: wrap;
+        text-justify: center;
+        white-space: 10rem;
+        margin-top: 2rem;
+        margin-left: 2rem;
+        
+    }
+
+    .container img {
+        position: absolute;
+        width: 60%;
+        height: 60%;
+        object-fit: contain;
+        flex-wrap: wrap;
+        margin-top: 19rem;
+        margin-left: 3.5rem;
+    }
+
+    .box_1{
+        justify-content: flex-start;
+        margin-right: 5rem;
+        margin-top: 1rem;
+        margin-bottom: -2rem;
+    }
+    
+    .box_2{
+        justify-content: flex-start;
+        margin-right: 15rem;
+        
+    }
+
+    
+    .social img{
+        width: 40px;
+        
+    }
+
+    .social{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        ;
+    }
+
+    .social img{
+        
+        width: 30px;
+    }
+
+    #soc_1{
+        margin-left: -7.5rem;
+        margin-top: 18rem;
+    }
+    #soc_2{
+        margin-left: -11.5rem;
+        margin-top: 18rem;
+    }
+    #soc_3{
+        margin-left: -7.5rem;
+        margin-top: 22.5rem;
+    }
+    #soc_4{
+        margin-left: -11.5rem;
+        margin-top: 22.5rem;
+
+    }
+
+    #soc_5{
+        width: 15px;
+        background-image:url(/img/icons/cv.svg);
+        background-repeat: no-repeat;
+        padding: 2rem 2rem;
+        margin-top: 27rem;
+        margin-right: 22rem;
+
+    }
+
+    .cv{
+        display: none;
+    }
+    
+
+    
+/*======================================Burguer-Menu========================================*/
+    .hamburger {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        cursor: pointer;
+        width: 30px;
+        height: 25px;
+  }
+  
+    .hamburger .-top,
+    .hamburger .-mid,
+    .hamburger .-bottom {
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        background-color: #ffffff;
+        border-radius: 3px;
+        transition: all 0.3s ease;
+  }
+  
+    .hamburger .-top {
+        top: 0;
+  }
+  
+    .hamburger .-mid {
+        top: 10px;
+  }
+  
+    .hamburger .-bottom {
+        bottom: 0;
+  }
+  
+    .hamburger.is-active .-top {
+        transform: rotate(45deg);
+        top: 50%;
+  }
+  
+    .hamburger.is-active .-mid {
+        opacity: 0;
+  }
+  
+    .hamburger.is-active .-bottom {
+        transform: rotate(-45deg);
+        bottom: 50%;
+  }
+
+  
+  
+    .box_3 {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        padding-left: 2rem;
+        padding-top: 20rem;
+        transform: translateY(-100%);
+        transition: all 0.3s ease;
+    
+  }
+  
+    .box_3.is_active {
+        transform: translateY(0);
+        z-index: 1;
+    
+  }
+    .hamburger.is-active{
+        display: none;
+  }
+ 
+    .box_3 ul {
+        margin-top: 1rem;
+        text-align: left;
+        font-size: 15px;
+  }
+  
+    .box_3 ul li {
+        color: #8AD47E;
+        text-decoration: none;
+        list-style-type: none;
+    
+  }
+
+/*======================================Burguer-Menu========================================*/
+
+    
+
+}
