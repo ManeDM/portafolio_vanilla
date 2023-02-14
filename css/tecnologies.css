@@ -67,8 +67,8 @@ body {
         flex-wrap: wrap;
         justify-content: flex-start;
         position: absolute;
-        margin-top: 15rem;
-        margin-left: -22.5rem;
+        margin-top: 34rem;
+        margin-left: -24rem;
         
     }
     .techs_icon img{
@@ -88,10 +88,9 @@ body {
         writing-mode: vertical-lr;
         position: absolute;
         right: 9rem;
-        margin-top: 21rem;
+        margin-top: 40rem;
         text-transform: capitalize;
         text-decoration: underline;
-        line-height: 35px;
         
     }
   }

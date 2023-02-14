@@ -65,8 +65,8 @@ body {
     .box_1 nav ul {
         display: flex;
         flex-direction: row;
-        margin-right: 8rem;
-        margin-top: -52rem;
+        margin-right: 5.5rem;
+        margin-top: -32rem;
       }
       
       nav ul li {
@@ -104,7 +104,7 @@ body {
       
       .box_3 {
         margin-left: 45rem;
-        margin-bottom: 20rem;
+        margin-bottom: -1rem;
         position: absolute;
       }
       
@@ -118,7 +118,7 @@ body {
         flex-direction: row;
         position: absolute;
         margin-right: 25rem;
-        margin-bottom: 19rem;
+        margin-bottom: -0.5rem;
       }
       
       #soc_1 {
@@ -131,10 +131,12 @@ body {
       
       #soc_3 {
         margin-right: 2rem;
+        margin-top: 1rem;
       }
       
       #soc_4 {
         margin-right: 2rem;
+        margin-top: 1rem;
       }
       
       #soc_5 {
@@ -144,7 +146,7 @@ body {
       .cv {
         position: absolute;
         margin-right: 26rem;
-        margin-bottom: 16rem;
+        margin-bottom: -3rem;
       }
       
       .cv p {
