@@ -61,7 +61,7 @@ body {
   }
   
   /* Estilos para pantallas de escritorio más grandes y laptops de alta resolución (1200px) */
-  @media only screen and (min-width: 1200px) {
+  @media only screen and (min-width: 1000px) {
     .box_1 nav ul {
         display: flex;
         flex-direction: row;
