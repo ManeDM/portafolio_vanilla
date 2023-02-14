@@ -84,9 +84,9 @@ body {
         
     }
   }
-  @media only screen and (min-width: 1440px) {
+  @media only screen and (min-width: 1600px) {
     .about_me{
-        margin-bottom: -10rem;
+        margin-bottom: -12rem;
         margin-right: 6rem;
         padding: 4rem, 4rem;
         position: absolute;
@@ -95,8 +95,8 @@ body {
     
     .about_me p{
         color: aliceblue;
-        font-size: 25px;
-        margin: 4rem 10rem;
+        font-size: 28px;
+        margin: 4rem 14rem;
         line-height: 45px;
     }
 

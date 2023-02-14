@@ -53,13 +53,72 @@ body {
   }
   
   /* Estilos para pantallas de escritorio pequeñas y laptops (992px) */
-  @media only screen and (min-width: 992px) {
-    body {
-      font-size: 20px;
+  @media only screen and (min-width: 1280px) {
+    .proj_icon{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        position: absolute;
+        margin-top: 48rem;
+        margin-left: -30rem;
+       
+        
     }
+    
+    .proj h3{
+        color: #8AD47E;
+        font-size: 25px;
+        writing-mode: vertical-lr;
+        position: absolute;
+        right: 9rem;
+        margin-top: 62rem;
+        text-transform: capitalize;
+        text-decoration: underline;
+        
+    }
+
+    #cd{
+      margin-left: 2rem;
+      margin-bottom: 3rem; 
+    }
+
   }
   
   /* Estilos para pantallas de escritorio más grandes y laptops de alta resolución (1200px) */
-  @media only screen and (min-width: 1440px) {
+  @media only screen and (min-width: 1600px) {
+    
+    .proj_icon{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        position: absolute;
+        margin-top: 48rem;
+        margin-left: -36rem;
+       
+        
+    }
+    
+    .proj h3{
+        color: #8AD47E;
+        font-size: 25px;
+        writing-mode: vertical-lr;
+        position: absolute;
+        right: 9rem;
+        margin-top: 60rem;
+        text-transform: capitalize;
+        text-decoration: underline;
+        
+    }
+
+    #cd{
+      margin-left: 5rem;
+      margin-bottom: 3rem; 
+    }
+
+    
+   
+    
 
   }
