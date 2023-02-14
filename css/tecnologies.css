@@ -60,6 +60,42 @@ body {
   }
   
   /* Estilos para pantallas de escritorio más grandes y laptops de alta resolución (1200px) */
+  @media only screen and (min-width: 1200px) {
+    .techs_icon{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        position: absolute;
+        margin-top: 15rem;
+        margin-left: -22.5rem;
+        
+    }
+    .techs_icon img{
+        width: 7%;
+
+    }
+
+    #tec{
+        margin-left: -5rem;
+        margin-right: 15rem;
+        margin-bottom: 4rem;
+    }
+
+    .techs h3{
+        color: #8AD47E;
+        font-size: 25px;
+        writing-mode: vertical-lr;
+        position: absolute;
+        right: 9rem;
+        margin-top: 21rem;
+        text-transform: capitalize;
+        text-decoration: underline;
+        line-height: 35px;
+        
+    }
+  }
+  
   @media only screen and (min-width: 1440px) {
     .techs_icon{
         display: flex;

@@ -61,6 +61,99 @@ body {
   }
   
   /* Estilos para pantallas de escritorio más grandes y laptops de alta resolución (1200px) */
+  @media only screen and (min-width: 1200px) {
+    .box_1 nav ul {
+        display: flex;
+        flex-direction: row;
+        margin-right: 8rem;
+        margin-top: -52rem;
+      }
+      
+      nav ul li {
+        color: #ffffff;
+        font-size: 32px;
+        text-decoration: none;
+        list-style: none;
+        padding-left: 8rem;
+        text-transform: capitalize;
+      }
+      
+      .box_2 {
+        position: absolute;
+        top: 100px;
+        left: 100px;
+        display: flex;
+        flex-direction: column;
+        margin-right: 27rem;
+        margin-top: 14rem;
+        text-transform: capitalize;
+      }
+      .box_2 h2 {
+        color: #8AD47E;
+        font-size: 45px;
+        letter-spacing: 3px;
+        text-transform: capitalize;
+      }
+      
+      .box_2 h3 {
+        color: #5DD9C2;
+        font-size: 35px;
+        letter-spacing: 4px;
+        text-transform: capitalize;
+      }
+      
+      .box_3 {
+        margin-left: 45rem;
+        margin-bottom: 20rem;
+        position: absolute;
+      }
+      
+      .box_3 img {
+        border-radius: 30%;
+        height: 350px;
+      }
+      
+      .social {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        margin-right: 25rem;
+        margin-bottom: 19rem;
+      }
+      
+      #soc_1 {
+        margin-right: 2rem;
+      }
+      
+      #soc_2 {
+        margin-right: 2rem;
+      }
+      
+      #soc_3 {
+        margin-right: 2rem;
+      }
+      
+      #soc_4 {
+        margin-right: 2rem;
+      }
+      
+      #soc_5 {
+        display: none;
+      }
+      
+      .cv {
+        position: absolute;
+        margin-right: 26rem;
+        margin-bottom: 16rem;
+      }
+      
+      .cv p {
+        font-size: 25px;
+        color: #5DD9C2;
+        text-transform: capitalize;
+        text-decoration: underline;
+    }}
+
   @media only screen and (min-width: 1440px) {
     .box_1 nav ul {
         display: flex;

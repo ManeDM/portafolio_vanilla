@@ -55,6 +55,35 @@ body {
   }
   
   /* Estilos para pantallas de escritorio más grandes y laptops de alta resolución (1200px) */
+  @media only screen and (min-width: 1200px) {
+    .about_me{
+        margin-bottom: -10rem;
+        margin-right: 6rem;
+        padding: 4rem, 4rem;
+        position: absolute;
+    }
+    
+    
+    .about_me p{
+        color: aliceblue;
+        font-size: 25px;
+        margin: 4rem 10rem;
+        line-height: 45px;
+    }
+
+    .about_me h3{
+        color: #8AD47E;
+        font-size: 25px;
+        writing-mode: vertical-lr;
+        position: absolute;
+        right: 3rem;
+        margin-top: 7rem;
+        text-transform: capitalize;
+        text-decoration: underline;
+        line-height: 35px;
+        
+    }
+  }
   @media only screen and (min-width: 1440px) {
     .about_me{
         margin-bottom: -10rem;
