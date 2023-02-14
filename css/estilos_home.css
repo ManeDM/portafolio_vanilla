@@ -98,7 +98,7 @@ body {
 
 
 
-@media (min-width: 802px){
+@media (min-width: 800px){
     
     .container h2 {
         font-size: 50px;
@@ -201,7 +201,7 @@ body {
 
 
 
-@media (max-width: 802px){
+@media (max-width: 800px){
     
     .container h2 {
         font-size: 50px;
@@ -274,30 +274,29 @@ body {
     }
 
     #soc_1{
-        margin-left: -22rem;
+        margin-left: -43rem;
         margin-top: 22rem;
     }
     #soc_2{
-        margin-left: -17rem;
+        margin-left: -34rem;
         margin-top: 22rem;
     }
     #soc_3{
-        margin-left: -7.5rem;
+        margin-left: -25rem;
         margin-top: 22.3rem;
     }
     #soc_4{
-        margin-left: -12rem;
+        margin-left: -16rem;
         margin-top: 22.3rem;
 
     }
 
     #soc_5{
         width: 15px;
-        
         background-image:url(/img/icons/cv.svg);
         background-repeat: no-repeat;
         padding: 2rem 2rem;
-        margin-top: 33rem;
+        margin-top: 30rem;
         margin-right: 42.5rem;
 
     }
