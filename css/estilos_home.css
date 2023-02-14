@@ -414,7 +414,7 @@ body {
 
 }
 
-@media(max-width: 480px) {
+@media(max-width: 414px) {
     .container h2 {
         font-size: 25px;
         letter-spacing: 15px;
@@ -442,8 +442,8 @@ body {
         height: 60%;
         object-fit: contain;
         flex-wrap: wrap;
-        margin-top: 19rem;
-        margin-left: 3.5rem;
+        margin-top: 22rem;
+        margin-left: 4.3rem;
     }
 
     .box_1{
@@ -478,20 +478,20 @@ body {
     }
 
     #soc_1{
-        margin-left: -7.5rem;
+        margin-left: -23rem;
         margin-top: 18rem;
     }
     #soc_2{
-        margin-left: -11.5rem;
-        margin-top: 18rem;
+        margin-left: -23rem;
+        margin-top: 21rem;
     }
     #soc_3{
-        margin-left: -7.5rem;
-        margin-top: 22.5rem;
+        margin-left: -23rem;
+        margin-top: 24rem;
     }
     #soc_4{
-        margin-left: -11.5rem;
-        margin-top: 22.5rem;
+        margin-left: -23rem;
+        margin-top: 26.5rem;
 
     }
 
