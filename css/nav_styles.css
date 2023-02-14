@@ -156,12 +156,12 @@ body {
         text-decoration: underline;
     }}
 
-  @media only screen and (min-width: 1440px) {
+  @media only screen and (min-width: 1600px) {
     .box_1 nav ul {
         display: flex;
         flex-direction: row;
         margin-right: 8rem;
-        margin-top: -52rem;
+        margin-top: -57rem;
       }
       
       nav ul li {
@@ -198,14 +198,14 @@ body {
       }
       
       .box_3 {
-        margin-left: 45rem;
+        margin-left: 49rem;
         margin-bottom: 20rem;
         position: absolute;
       }
       
       .box_3 img {
         border-radius: 30%;
-        height: 350px;
+        height: 450px;
       }
       
       .social {
