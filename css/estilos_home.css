@@ -414,7 +414,7 @@ body {
 
 }
 
-@media(max-width: 375px) {
+@media(max-width: 400px) {
     .container h2 {
         font-size: 25px;
         letter-spacing: 15px;
