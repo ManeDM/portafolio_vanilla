@@ -60,14 +60,14 @@ body {
   }
   
   /* Estilos para pantallas de escritorio más grandes y laptops de alta resolución (1200px) */
-  @media only screen and (min-width: 1000px) {
+  @media only screen and (min-width: 1280px) {
     .techs_icon{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: flex-start;
         position: absolute;
-        margin-top: 34rem;
+        margin-top: 18rem;
         margin-left: -24rem;
         
     }
@@ -88,14 +88,14 @@ body {
         writing-mode: vertical-lr;
         position: absolute;
         right: 9rem;
-        margin-top: 40rem;
+        margin-top: 22.5rem;
         text-transform: capitalize;
         text-decoration: underline;
         
     }
   }
   
-  @media only screen and (min-width: 1440px) {
+  @media only screen and (min-width: 1600px) {
     .techs_icon{
         display: flex;
         flex-direction: row;

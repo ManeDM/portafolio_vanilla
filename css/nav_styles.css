@@ -61,12 +61,12 @@ body {
   }
   
   /* Estilos para pantallas de escritorio más grandes y laptops de alta resolución (1200px) */
-  @media only screen and (min-width: 1000px) {
+  @media only screen and (min-width: 1280px) {
     .box_1 nav ul {
         display: flex;
         flex-direction: row;
         margin-right: 5.5rem;
-        margin-top: -32rem;
+        margin-top: -50rem;
       }
       
       nav ul li {
@@ -104,7 +104,7 @@ body {
       
       .box_3 {
         margin-left: 45rem;
-        margin-bottom: -1rem;
+        margin-bottom: 15rem;
         position: absolute;
       }
       
@@ -118,7 +118,7 @@ body {
         flex-direction: row;
         position: absolute;
         margin-right: 25rem;
-        margin-bottom: -0.5rem;
+        margin-bottom: 18rem;
       }
       
       #soc_1 {
@@ -146,7 +146,7 @@ body {
       .cv {
         position: absolute;
         margin-right: 26rem;
-        margin-bottom: -3rem;
+        margin-bottom: 15.5rem;
       }
       
       .cv p {

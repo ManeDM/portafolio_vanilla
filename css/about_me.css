@@ -55,9 +55,9 @@ body {
   }
   
   /* Estilos para pantallas de escritorio más grandes y laptops de alta resolución (1200px) */
-  @media only screen and (min-width: 1000px) {
+  @media only screen and (min-width: 1280px) {
     .about_me{
-        margin-bottom: -26rem;
+        margin-bottom: -10rem;
         margin-right: 6rem;
         padding: 4rem, 4rem;
         position: absolute;
