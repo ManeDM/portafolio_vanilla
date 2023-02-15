@@ -34,9 +34,111 @@ body {
 
 /* Estilos para dispositivos móviles pequeños (320px) */
 @media only screen and (min-width: 320px) {
-    body {
-      font-size: 14px;
+    .box_1 nav ul {
+        display: flex;
+        flex-direction: column;
+        margin-left: -4.5rem;
+        margin-top: -55.5rem;
+        position: absolute;
+      }
+    nav ul li {
+        color: #ffffff;
+        font-size: 18px;
+        text-decoration: none;
+        list-style: none;
+        margin-left: -4.5rem;
+        padding-top: 1rem;
+        text-transform: capitalize;
+        
+      }
+
+    .box_2 {
+        position: absolute;
+        top: -10rem;
+        margin-right: 0.5rem;
+        margin-top: 12rem;
+        text-transform: capitalize;
+      }
+
+    .box_2 h2 {
+        color: #8AD47E;
+        font-size: 19px;
+        letter-spacing: 1.5px;
+        text-transform: capitalize;
+      }
+
+    .box_2 h3 {
+        color: #5DD9C2;
+        font-size: 15px;
+        letter-spacing: 1.5px;
+        text-transform: capitalize;
+      }
+
+      .box_3 {
+        margin-left: 8rem;
+        margin-bottom: 45.5rem;
+        position: absolute;
+      }
+
+      .box_3 img {
+        border-radius: 30px;
+        height: 150px;
+      }
+
+      .social {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        margin-right: 1rem;
+        margin-bottom: 39.5rem;
+      }
+      
+      #soc_1 {
+        margin-right: 1rem;
+        width: 30px;
+      }
+      
+      #soc_2 {
+        margin-right: 1rem;
+        width: 30px;
+      }
+      
+      #soc_3 {
+        margin-right: 1rem;
+        margin-top: 0.6rem;
+        width: 30px;
+      }
+      
+      #soc_4 {
+        margin-right: 1rem;
+        margin-top: 0.6rem;
+        width: 30px;
+      }
+      
+      #soc_5 {
+        margin-bottom: -1rem;
+        width: 33px;
+        height: 48px;
+      }
+      
+      .cv {
+        position: absolute;
+        margin-right: 26rem;
+        margin-bottom: 15.5rem;
+      }
+      
+      .cv p {
+        font-size: 25px;
+        color: #5DD9C2;
+        text-transform: capitalize;
+        text-decoration: underline;
     }
+
+
+
+      
+
+      
   }
   
   /* Estilos para dispositivos móviles más grandes y tablets pequeñas (480px) */
