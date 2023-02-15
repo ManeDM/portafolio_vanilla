@@ -37,7 +37,7 @@ body {
         display: flex;
         flex-direction: column;
         position: absolute;
-        margin-left: -7rem;
+        margin-left: -6.5rem;
         box-sizing: border-box;
         width: 220px;
         height: 220px;
@@ -52,7 +52,7 @@ body {
         color: #8AD47E;
         font-size: 18px;
         position: absolute;
-        right: 8rem;
+        right: 7rem;
         margin-top: 2rem;
         text-transform: capitalize;
         text-decoration: underline;
