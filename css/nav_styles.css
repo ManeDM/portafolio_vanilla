@@ -38,7 +38,7 @@ body {
         display: flex;
         flex-direction: column;
         margin-left: -4.5rem;
-        margin-top: -55.5rem;
+        margin-top: -55rem;
         position: absolute;
       }
     nav ul li {
@@ -167,8 +167,8 @@ body {
     .box_1 nav ul {
         display: flex;
         flex-direction: row;
-        margin-right: 5.5rem;
-        margin-top: -46rem;
+        margin-left: -22rem;
+        margin-top: -52rem;
       }
       
       nav ul li {
@@ -262,7 +262,7 @@ body {
     .box_1 nav ul {
         display: flex;
         flex-direction: row;
-        margin-right: 8rem;
+       
         margin-top: -57rem;
       }
       

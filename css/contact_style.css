@@ -35,7 +35,7 @@ body {
 @media only screen and (min-width: 320px) {
 .cont_form {
   margin-left: -7.5rem;
-  margin-top: 56rem;
+  margin-top: 32rem;
   width: 15rem;
   height: 28rem;
   background-color: #5DD9C2;
@@ -49,7 +49,7 @@ body {
     font-size: 18px;
     position: absolute;
     right: 7.5rem;
-    margin-top: 52rem;
+    margin-top: 29rem;
     text-transform: capitalize;
     text-decoration: underline;
 }
@@ -60,7 +60,7 @@ body {
     writing-mode: vertical-lr;
     position: absolute;
     right: 9rem;
-    margin-top: 85rem;
+    margin-top: 60rem;
     text-transform: capitalize;
     text-decoration: underline;
     visibility: hidden;
@@ -140,6 +140,13 @@ body {
 #name {
   margin-top: 2rem;
   position: relative;
+}
+
+#cd{
+    width: 150px; 
+    height: 200px;
+    margin-left: 6px;
+    margin-bottom: -3rem;
 }
   }
   
@@ -278,6 +285,13 @@ body {
             position: absolute;
         }
 
+        #cd{
+            width: 350px; 
+            height: 300px;
+            margin-left: 40px;
+            margin-bottom: 10px;
+        }
+
   }
 
   /* Estilos para pantallas de escritorio pequeñas y laptops (992px) */
@@ -400,5 +414,9 @@ body {
             margin-top: 8rem;
             position: absolute;
         }
+
+        
+
+        
     
   }
